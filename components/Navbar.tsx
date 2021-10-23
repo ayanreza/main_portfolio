@@ -8,6 +8,9 @@ export default function Navbar() {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
+    useEffect(() => {
+        setMounted(true);
+      }, []);
 
     return (
         <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
