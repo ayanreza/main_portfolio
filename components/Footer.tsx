@@ -13,7 +13,7 @@ export default function Footer() {
 
                     <div className="space-x-4 flex flex-row items-center">
                         <a
-                            href="#"
+                            href="https://www.instagram.com/ayanpoptosis/"
                             className="text-base font-normal text-gray-600 dark:text-gray-300"
                         >
                             <svg
@@ -43,7 +43,7 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/ayanreza/"
                             className="text-base font-normal text-gray-600 dark:text-gray-300"
                         >
                             <svg
