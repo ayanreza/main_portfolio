@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import avatar from "../public/avatar.jpg"
+import { RoughNotationGroup } from "react-rough-notation";
+import { RainbowHighlight } from "./RainbowHighlight";
 
 export default function Hero() {
+
+    const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
 
     return (
 
@@ -10,24 +14,35 @@ export default function Hero() {
             {/* Hero annotation section */}
             <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
 
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-                    Developer
-                </h1>
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-                    Programmer
-                </h1>
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-                    Innovator
-                </h1>
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-                    Student
-                </h1>
+                <RoughNotationGroup show={true}>
+                    <RainbowHighlight color={colors[0]} type={"highlight"}>
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                            Developer
+                        </h1>
+                    </RainbowHighlight>
+                    <RainbowHighlight color={colors[1]} type={"underlinen"}>
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                            Programmer
+                        </h1>
+                    </RainbowHighlight>
+                    <RainbowHighlight color={colors[2]} type={"highlight"}>
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                            Innovator
+                        </h1>
+                    </RainbowHighlight>
+                    <RainbowHighlight color={colors[3]} type={"highlight"}>
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                            Student
+                        </h1>
+                    </RainbowHighlight>
+                    
+                </RoughNotationGroup>
 
             </div>
 
             <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
                 <div className="w-3/4 ">
-                    <Image src={avatar}/>
+                    <Image src={avatar} />
                     <div className="flex flex-row justify-between mt-4">
                         <div className="flex flex-row space-x-4">
                             <svg
@@ -52,6 +67,6 @@ export default function Hero() {
 
         </div>
 
-        
+
     )
 }
