@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import ContainerBlock from '../components/ContainerBlock'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import FavouriteProjects from '../components/FavoriteProjects'
 import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
@@ -15,6 +16,8 @@ const Home: NextPage = () => {
       description="This is my portfolio website showing my projects"
       >
         <Hero />
+        <FavouriteProjects/>
+
       </ContainerBlock>
     </div>
   )
