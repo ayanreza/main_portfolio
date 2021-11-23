@@ -7,18 +7,29 @@ const userData = {
     {
       title: "Main Portfolio",
       link: "https://github.com/ayanreza/main_portfolio",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "project1.jpg",
     },
     {
       title: "Guardian",
       link: "https://devpost.com/software/guardian-rw4lvg",
-      imgUrl: "/placeholdertech.png",
+      imgUrl: "project2.jpg",
     },
     {
       title: "Parstagram",
       link: "https://github.com/ayanreza/parstagram",
-      imgUrl: "/portfolio.png",
+      imgUrl: "project3.jpg",
     },
+    {
+      title: "Twitter Clone",
+      link: "https://github.com/ayanreza/twitter_clone",
+      imgUrl: "twitter_clone.jpg",
+    },
+    {
+      title: "Flixster",
+      link: "https://github.com/ayanreza/Flixster",
+      imgUrl: "flixster.jpg",
+    },
+    
   ],
   about: {
     title:
