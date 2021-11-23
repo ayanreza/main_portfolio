@@ -43,8 +43,8 @@ export default function FavouriteProjects() {
             <Image className="transform hover:scale-125 transition duration-2000 ease-out"
                 src="/project1.jpg"
                 alt="portfolio"
-                width={700}
-                height={700}
+                width={1000}
+                height={600}
                 
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
