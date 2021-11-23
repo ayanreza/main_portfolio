@@ -26,7 +26,7 @@ const userData = {
     description: [
       `I have been coding since highschool and am scared yet fascinated as to how the world is changing so rapidly. I have been experimenting with many technologies from Mobile, Web, Cloud, and Data in an effort to find what specialization I should pursue during the rest of my Software Engineering Career.`,
     ],
-    currentProject: "Applying for Internships!!",
+    currentProject: "Applying to Internships!!",
     currentProjectUrl: "https://drive.google.com/file/d/1D42ZqlNHmJuNCZvKgYV0PMjLEHGApUbv/view?usp=sharing",
   },
   experience: [
