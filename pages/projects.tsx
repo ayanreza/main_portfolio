@@ -4,7 +4,10 @@ import ContainerBlock from "../components/ContainerBlock";
 
 export default function projects() {
     return (
-        <ContainerBlock>
+        <ContainerBlock
+        title="Ayan Reza - Projects"
+        description="Ayan Reza's personal portfolio site displaying his projects and skills"
+        >
             <Projects/>
         </ContainerBlock>
     )

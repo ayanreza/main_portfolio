@@ -4,7 +4,10 @@ import AboutMe from "../components/AboutMe";
 
 export default function about() {
     return (
-        <ContainerBlock>
+        <ContainerBlock
+        title="Ayan Reza - About"
+        description="Ayan Reza's personal portfolio site displaying his projects and skills"
+        >
             <AboutMe/>
         </ContainerBlock>
     )

@@ -14,8 +14,8 @@ import Footer from '../components/Footer'
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Ayan Reza - Developer, Programmer, Innovator, Student"
-      description="Ayan Reza's personal portfolio site displaying his projects and skills"
+      title="Ayan Reza"
+      description="Ayan Reza's personal portfolio site displaying his projects and skills. No need to look for any more candidates. I'll get the job done. "
     >
       <Hero />
       <FavouriteProjects />
