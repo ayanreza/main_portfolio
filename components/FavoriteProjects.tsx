@@ -36,19 +36,19 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://tailwindmasterkit.com"
+            href="http://www.ayanreza.com"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
             <Image className="transform hover:scale-125 transition duration-2000 ease-out"
                 src="/project1.jpg"
                 alt="portfolio"
-                width={1000}
-                height={1000}
+                width={700}
+                height={700}
                 
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Tailwind Master Kit
+                Portfolio Site
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -57,20 +57,20 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://placeholdertech.in"
+            href="https://github.com/ayanreza/Guardian-Shellhacks2021"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <Image className="transform hover:scale-125 transition duration-2000 ease-out"
-                src="/project1.jpg"
-                alt="portfolio"
+                src="/project2.jpg"
+                alt="Guardian- an app that provides an alternative to 911"
                 width={1000}
-                height={1000}
+                height={700}
                 
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
+                Guardian
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -79,20 +79,20 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://manuarora.in"
+            href="https://github.com/ayanreza/parstagram"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <Image className="transform hover:scale-125 transition duration-2000 ease-out"
-                src="/project1.jpg"
-                alt="portfolio"
-                width={1000}
-                height={1000}
+                src="/project3.jpg"
+                alt="Parstagram- Instagram Clone"
+                width={400}
+                height={600}
                 
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
+                Parstagram
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
