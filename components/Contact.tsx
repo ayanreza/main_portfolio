@@ -8,6 +8,7 @@ export default function Contact() {
         <h1 className=" text-5xl md:text-9xl font-bold py-25 text-center md:text-left">
           Contact
         </h1>
+        <h2>This page is just UI. Please contact using socials or email. Page will be ready soon.</h2>
       </div>
       <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
