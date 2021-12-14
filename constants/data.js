@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "ayanreza",
   name: "Ayan Reza",
   email: "ayanreza@gmail.com",
-  phone: "516-469-5883",
+  phone: "Contact me through email!",
   projects: [
     {
       title: "Main Portfolio",
